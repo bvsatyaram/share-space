@@ -8,10 +8,17 @@ module.exports = function(grunt) {
         }
       }
     },
+    cssmin: {
+      target: {
+        files: {
+          'css/app.min.css': ['css/app.css']
+        }
+      }
+    },
     watch: {
       css: {
         files: ['css/src/*.scss'],
-        tasks: ['sass']
+        tasks: ['sass', 'cssmin']
       },
       js: {
         files: ['js/src/*.coffee'],
@@ -30,6 +37,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-coffee');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-  grunt.registerTask('default', ['sass', 'coffee', 'watch']);
+  grunt.registerTask('default', ['sass', 'cssmin', 'coffee', 'watch']);
 };
