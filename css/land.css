@@ -1,0 +1,21 @@
+#land {
+  background-color: #9b50ba;
+  color: #ecf0f1;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100vh;
+  border: 1px solid transparent; }
+  #land .centered {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  #land h1 {
+    font-weight: 100;
+    font-size: 6vw; }
+  #land p {
+    font-weight: 300;
+    font-size: 1.5vw;
+    margin-top: 5vh; }
+
+/*# sourceMappingURL=land.css.map */
