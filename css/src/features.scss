@@ -1,0 +1,17 @@
+#features {
+  background-color: $features-bg-color;
+  color: $light-font-color;
+  height: auto;
+  padding: 10vh 0;
+  text-align: center;
+
+  .feature-container {
+    transition: width 0.3s ease-in;
+  }
+
+  .feature {
+    border: 1px solid $light-font-color;
+    border-radius: 5px;
+    margin-bottom: 1em;
+  }
+}

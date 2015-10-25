@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.slide {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid transparent; }
+
+.centered {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+h1, .h1 {
+  font-weight: 100; }
+
+h2, .h2 {
+  font-weight: 100; }
+
+h3, .h3 {
+  font-weight: 100; }
+
+h4, .h4 {
+  font-weight: 100; }
+
+h5, .h5 {
+  font-weight: 100; }
+
+h6, .h6 {
+  font-weight: 100; }
+
+#land {
+  background-color: #9b50ba;
+  color: #ecf0f1;
+  min-height: 100vh;
+  height: 100vh; }
+  #land h1 {
+    font-weight: 100;
+    font-size: 6vw; }
+  #land p {
+    font-weight: 300;
+    font-size: 1.5vw;
+    margin-top: 5vh; }
+
+#features {
+  background-color: #d35400;
+  color: #ecf0f1;
+  height: auto;
+  padding: 10vh 0;
+  text-align: center; }
+  #features .feature-container {
+    transition: width 0.3s ease-in; }
+  #features .feature {
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    margin-bottom: 1em; }
+
+/*# sourceMappingURL=app.css.map */

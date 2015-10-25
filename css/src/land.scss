@@ -1,20 +1,8 @@
-$primary-color: #9b50ba;
-$light-font-color: #ecf0f1;
-
 #land {
   background-color: $primary-color;
   color: $light-font-color;
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
+  min-height: 100vh;
   height: 100vh;
-  border: 1px solid transparent;
-
-  .centered {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
 
   h1 {
     font-weight: 100;
