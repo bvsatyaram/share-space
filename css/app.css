@@ -55,5 +55,7 @@ h6, .h6 {
     border: 1px solid #ecf0f1;
     border-radius: 5px;
     margin-bottom: 1em; }
+    #features .feature.selected {
+      background-color: rgba(255, 255, 255, 0.2); }
 
 /*# sourceMappingURL=app.css.map */

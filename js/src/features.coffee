@@ -1,0 +1,3 @@
+$ ->
+  $('.feature').click ->
+    $(@).toggleClass('selected')

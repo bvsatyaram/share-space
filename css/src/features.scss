@@ -13,5 +13,9 @@
     border: 1px solid $light-font-color;
     border-radius: 5px;
     margin-bottom: 1em;
+
+    &.selected {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
   }
 }
